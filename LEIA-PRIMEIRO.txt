@@ -1,0 +1,16 @@
+EBF 2026 — Uma aventura no Egito — versão completa 2.2
+
+NOVIDADES
+- Enquadramento automático em computador, TV, projetor e celular.
+- Perguntas e alternativas organizadas para caber na tela.
+- Botão Tela cheia / Projetor na aba Configurações.
+- Música original mais animada, com melodia, baixo e percussão.
+
+TESTE NO COMPUTADOR
+1. Mantenha todos os arquivos desta pasta juntos.
+2. Abra o arquivo index.html.
+3. Na roleta, abra Configurações e use Tela cheia / Projetor.
+
+PUBLICAÇÃO NO GITHUB
+Envie todos os arquivos desta pasta para a raiz do repositório e confirme a
+substituição dos arquivos que já existirem.
