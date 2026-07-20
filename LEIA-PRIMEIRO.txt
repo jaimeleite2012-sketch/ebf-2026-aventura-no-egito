@@ -1,16 +1,15 @@
-EBF 2026 — Uma aventura no Egito — versão completa 2.2
+EBF 2026 — Uma aventura no Egito — versão completa 2.2.1
 
-NOVIDADES
-- Enquadramento automático em computador, TV, projetor e celular.
-- Perguntas e alternativas organizadas para caber na tela.
-- Botão Tela cheia / Projetor na aba Configurações.
-- Música original mais animada, com melodia, baixo e percussão.
+CORREÇÃO DE CACHE
+Esta versão usa nomes novos nos arquivos principais para impedir que o
+navegador misture o HTML atual com estilos antigos.
 
 TESTE NO COMPUTADOR
-1. Mantenha todos os arquivos desta pasta juntos.
-2. Abra o arquivo index.html.
-3. Na roleta, abra Configurações e use Tela cheia / Projetor.
+1. Extraia este pacote em uma pasta nova.
+2. Não misture estes arquivos com versões anteriores.
+3. Abra o arquivo index.html.
 
 PUBLICAÇÃO NO GITHUB
-Envie todos os arquivos desta pasta para a raiz do repositório e confirme a
-substituição dos arquivos que já existirem.
+Envie TODOS os arquivos desta pasta para a raiz do repositório.
+Os arquivos antigos podem permanecer, pois o novo index.html utiliza somente
+os arquivos identificados como v221.
