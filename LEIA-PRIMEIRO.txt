@@ -1,15 +1,50 @@
-EBF 2026 — Uma aventura no Egito — versão completa 2.2.1
+EBF 2026 — UMA AVENTURA NO EGITO | PWA v3.0
 
-CORREÇÃO DE CACHE
-Esta versão usa nomes novos nos arquivos principais para impedir que o
-navegador misture o HTML atual com estilos antigos.
+COMO TESTAR
+1. Para testar instalação e modo offline, publique todos os arquivos no GitHub Pages
+   ou sirva esta pasta com um servidor local.
+2. Abra o endereço no Safari (iPhone), Chrome (Android) ou Edge/Chrome (computador).
+3. No primeiro acesso, permaneça online para o PWA armazenar os arquivos.
+4. Depois, feche e reabra sem internet para confirmar o funcionamento offline.
 
-TESTE NO COMPUTADOR
-1. Extraia este pacote em uma pasta nova.
-2. Não misture estes arquivos com versões anteriores.
-3. Abra o arquivo index.html.
+CONTEÚDO
+- 240 questões autorais e parafraseadas, sem separação por idade.
+- Base: Gênesis 37 e 39–50, com referências bíblicas em cada questão.
+- Cada item possui quatro alternativas, resposta, explicação e referência.
+- As alternativas são embaralhadas em cada apresentação.
+- Temas sensíveis foram adaptados à linguagem infantil.
 
-PUBLICAÇÃO NO GITHUB
-Envie TODOS os arquivos desta pasta para a raiz do repositório.
-Os arquivos antigos podem permanecer, pois o novo index.html utiliza somente
-os arquivos identificados como v221.
+MECÂNICA
+- Modo individual ou de duas a quatro equipes.
+- Partidas de 10, 15, 20, 30, 50, 90 ou 240 perguntas.
+- A cada rodada, a trajetória pode ser sorteada na roleta ou escolhida manualmente.
+- No modo em equipes, a roleta infantil continua sorteando a criança participante.
+- No modo individual, não há cadastro nem roleta de participantes.
+- Cronômetro de 60 segundos, pausa e início oficial controlado pelo professor.
+- Resposta oral sem alternativas vale 100 pontos; com alternativas, vale 50 pontos.
+- Acerto produz confetes e som de vitória; erro produz efeito escuro, fumaça e som.
+- Três estrelas, sem eliminação precoce.
+- Música e efeitos podem ser ligados ou desligados.
+- Mapa visual, progresso salvo no aparelho e certificado imprimível.
+- Imagens temáticas em tela cheia acompanham as seis trajetórias.
+- Cadastro, auditoria expansível, edição de participantes e reinício do jogo.
+
+PUBLICAÇÃO NO GITHUB PAGES
+1. Envie todos os arquivos desta pasta para a raiz do repositório.
+2. Confirme que index.html, app-v300.js, questions-v300.js, style-v300.css,
+   game-v300.css, manifest-v300.webmanifest e sw-v300.js aparecem na raiz.
+3. Aguarde o GitHub Pages concluir a atualização e recarregue o endereço do jogo.
+
+VALIDAÇÃO 20/07/2026
+- 240 registros e 240 IDs únicos.
+- 150 perguntas novas; as 90 anteriores foram preservadas.
+- Nenhuma pergunta exata ou semanticamente duplicada no limite de auditoria.
+- Seis trajetórias com perguntas disponíveis.
+- Nenhum registro sem referência, explicação ou conjunto válido de alternativas.
+- Sintaxe JavaScript aprovada em questions.js, app.js e sw.js.
+- Fluxos manual/roleta, individual/equipes e banco completo verificados.
+- PWA com cache v3.0.0 e caminhos relativos para GitHub Pages.
+
+HOMOLOGAÇÃO RECOMENDADA
+- Antes da EBF, confirme instalação/offline no iPhone, Android e no
+  computador/projetor que serão realmente usados no evento.
