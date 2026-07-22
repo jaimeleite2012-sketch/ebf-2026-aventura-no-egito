@@ -1,0 +1,3 @@
+Atualização V3.0.5 — sincronização da roleta.
+Envie app-v300.js e sw-v300.js para a raiz do repositório, mantendo os mesmos nomes.
+O GitHub substituirá os arquivos antigos. Depois aguarde a publicação e recarregue a página.
