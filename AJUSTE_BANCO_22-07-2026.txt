@@ -1,0 +1,12 @@
+EBF 2026 — UMA AVENTURA NO EGITO
+ATUALIZAÇÃO v3.0.1 — BANCO REVISADO
+
+Foram retiradas preventivamente 11 perguntas para revisão de clareza e coerência:
+IDs: 15, 46, 67, 90, 116, 162, 183, 193, 197, 202 e 212.
+
+Banco ativo após o ajuste: 229 perguntas.
+
+IMPORTANTE:
+- A dinâmica, as roletas, as imagens, os sons e a pontuação não foram alterados.
+- A opção “Todas” foi atualizada para 229 perguntas.
+- O cache e o salvamento foram versionados para impedir que uma partida antiga recupere perguntas removidas.

@@ -1,4 +1,4 @@
-EBF 2026 — UMA AVENTURA NO EGITO | PWA v3.0
+EBF 2026 — UMA AVENTURA NO EGITO | PWA v3.0.1 — BANCO REVISADO
 
 COMO TESTAR
 1. Para testar instalação e modo offline, publique todos os arquivos no GitHub Pages
@@ -8,7 +8,7 @@ COMO TESTAR
 4. Depois, feche e reabra sem internet para confirmar o funcionamento offline.
 
 CONTEÚDO
-- 240 questões autorais e parafraseadas, sem separação por idade.
+- 229 questões autorais e parafraseadas, sem separação por idade.
 - Base: Gênesis 37 e 39–50, com referências bíblicas em cada questão.
 - Cada item possui quatro alternativas, resposta, explicação e referência.
 - As alternativas são embaralhadas em cada apresentação.
@@ -16,7 +16,7 @@ CONTEÚDO
 
 MECÂNICA
 - Modo individual ou de duas a quatro equipes.
-- Partidas de 10, 15, 20, 30, 50, 90 ou 240 perguntas.
+- Partidas de 10, 15, 20, 30, 50, 90 ou 229 perguntas.
 - A cada rodada, a trajetória pode ser sorteada na roleta ou escolhida manualmente.
 - No modo em equipes, a roleta infantil continua sorteando a criança participante.
 - No modo individual, não há cadastro nem roleta de participantes.
@@ -36,8 +36,8 @@ PUBLICAÇÃO NO GITHUB PAGES
 3. Aguarde o GitHub Pages concluir a atualização e recarregue o endereço do jogo.
 
 VALIDAÇÃO 20/07/2026
-- 240 registros e 240 IDs únicos.
-- 150 perguntas novas; as 90 anteriores foram preservadas.
+- 229 registros e 229 IDs únicos após retirada de 11 itens para revisão.
+- Banco preservado, com retirada preventiva dos IDs 15, 46, 67, 90, 116, 162, 183, 193, 197, 202 e 212.
 - Nenhuma pergunta exata ou semanticamente duplicada no limite de auditoria.
 - Seis trajetórias com perguntas disponíveis.
 - Nenhum registro sem referência, explicação ou conjunto válido de alternativas.

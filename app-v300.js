@@ -3,7 +3,7 @@ const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const STOPS=[['🏠','Casa de Jacó'],['🌾','Campo'],['🐪','Viagem'],['🏡','Potifar'],['🔒','Prisão'],['🏛️','Palácio']];
 const COLORS={red:{name:'Vermelho',hex:'#d9293e'},blue:{name:'Azul',hex:'#1769c2'},yellow:{name:'Amarelo',hex:'#ffd538'},green:{name:'Verde',hex:'#239447'}};
 const THEMES=['Casa de Jacó','Campo dos irmãos','Viagem ao Egito','Casa de Potifar','Prisão','Palácio de Faraó'];
-const SAVE='joseGameV12',VERSION=12,LIMIT=60,SPIN_MS=15000;let timerId=null,audioCtx=null,wheelRotation=0,childRotation=0,rouletteId=null,rouletteAudio=[],rouletteTickTimer=null,rouletteActive=false,musicTimer=null,musicStep=0,selectionBusy=false;
+const SAVE='joseGameV301',VERSION=301,LIMIT=60,SPIN_MS=15000;let timerId=null,audioCtx=null,wheelRotation=0,childRotation=0,rouletteId=null,rouletteAudio=[],rouletteTickTimer=null,rouletteActive=false,musicTimer=null,musicStep=0,selectionBusy=false;
 const state={mode:'individual',count:15,players:[],children:[],childOrder:[],childCursor:0,currentChild:null,turn:0,questions:[],index:0,streak:0,lives:3,correct:0,answered:false,choiceMode:false,sound:true,seconds:LIMIT,paused:false,selectionMode:'wheel',manualTheme:null};
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 function themeOf(q){if(Number.isInteger(q.theme)&&q.theme>=0&&q.theme<THEMES.length)return q.theme;const n=q.id;if(n<=10||(n>=46&&n<=50))return 0;if((n>=11&&n<=16)||(n>=51&&n<=56)||n===58||n===59)return 1;if(n===17||n===18||n===57||n===60)return 2;if((n>=19&&n<=22)||(n>=61&&n<=66))return 3;if((n>=23&&n<=30)||(n>=67&&n<=76))return 4;return 5}
